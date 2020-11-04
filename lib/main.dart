@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Travels App',
+      title: 'Room Finder',
       theme: ThemeData(
         brightness: Brightness.light,
-        scaffoldBackgroundColor: Colors.white,
+        scaffoldBackgroundColor: kBackgroundColor,
         textTheme:
-        GoogleFonts.poppinsTextTheme().apply(displayColor: kTextColor),
+        GoogleFonts.poppinsTextTheme().apply(displayColor: kRegularTextColor),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeScreen(),
