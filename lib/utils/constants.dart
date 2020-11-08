@@ -10,3 +10,14 @@ const kDarkTextColor = Color(0xFF040404);
 const kDetailsTextColor = Color(0xFF8492a7);
 
 const kDefaultPadding = 20.0;
+const kFind_your_hotel = 'Find your hotel';
+const kSearch_for_rooms = 'Find your rooms';
+const kPopular_rooms = 'Popular rooms';
+const kHot_packages = 'Hot packages';
+const kView_All = 'View All';
+
+const kVerticalCardBoxShadow = BoxShadow(
+  color: Color(0x0d000000),
+  offset: Offset(0, 5),
+  blurRadius: 20,
+);

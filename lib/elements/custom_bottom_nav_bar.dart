@@ -84,7 +84,6 @@ class NavItem extends StatelessWidget {
                 color: isActive ? kAccentColor : kLightTextColor,
                 letterSpacing: -0.5,
                 fontWeight: FontWeight.w300,
-                height: 1.5,
               ),
             ),
 
